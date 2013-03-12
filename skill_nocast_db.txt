@@ -1,0 +1,113 @@
+// 地图中禁止使用技能资料库
+//
+// Structure of Database:
+// 技能ID,旗标
+//
+// 设定 '旗标' :
+//  1 = 在一般地图无法使用
+//  2 = 在PK地图无法使用 (PK-mode伺服器与设定旗标为1的相同)
+//  4 = 在城战地图无法使用
+//  8 = 在战场地图无法使用
+//  16 = cloned无法抄袭 (clones将无法抄袭设定为此项旗标的技能)
+//  指定 Zone 地图 - 指定的 'restricted <number>' 地图将无法使用设定的技能
+//  32 = 在 zone 1 地图无法使用
+//  64 = 在 zone 2 地图无法使用
+//  128 = 在 zone 3 地图无法使用
+//  256 = 在 zone 4 地图无法使用
+//  512 = 在 zone 5 地图无法使用
+//  1024 = 在 zone 6 地图无法使用
+//  2048 = 在 zone 7 地图无法使用
+//
+// 范例:
+// 8,6 = 霸体无法在PK地图及城战地图使用 (2+4)
+
+//GVG 城战地图
+26,4	//瞬间移动
+27,4	//传送之阵
+87,4	//冰刃之墙
+150,4	//后退回避
+290,4	//SA_ABRACADABRA
+361,4	//圣母之祈福
+362,4	//神圣殿堂
+395,4	//落花伴着月光下的水车小屋
+491,4	//植物栽培
+530,4	//NJ_KIRIKAGE
+691,4	//CASH_ASSUMPTIO
+2023,4	//暗影步
+
+//战场
+26,8	//AL_TELEPORT
+27,8	//AL_WARP
+87,8	//WZ_ICEWALL
+150,8	//TF_BACKSLIDING
+264,8	//MO_BODYRELOCATION
+361,8	//HP_ASSUMPTIO
+362,8	//HP_BASILICA
+395,8	//CG_MOONLIT
+396,8	//CG_MARIONETTE
+491,8	//CR_CULTIVATION
+411,8	//TK_RUN
+426,8	//TK_HIGHJUMP
+427,8	//SG_FEEL
+428,8	//SG_SUN_WARM
+429,8	//SG_MOON_WARM
+430,8	//SG_STAR_WARM
+431,8	//SG_SUN_COMFORT
+432,8	//SG_MOON_COMFORT
+433,8	//SG_STAR_COMFORT
+434,8	//SG_HATE
+435,8	//SG_SUN_ANGER
+436,8	//SG_MOON_ANGER
+437,8	//SG_STAR_ANGER
+438,8	//SG_SUN_BLESS
+439,8	//SG_MOON_BLESS
+440,8	//SG_STAR_BLESS
+530,8	//NJ_KIRIKAGE
+691,8	//CASH_ASSUMPITO
+
+//mixed
+488,3	//海罗默德的手杖
+
+//Clone Forbidden/pointless skills
+77,16	//转生术
+79,16	//十字驱魔攻击
+
+//Zone 1 - Aldebaran Turbo Track
+219,32	//胁持
+26,32	//瞬间移动
+27,32	//传送之阵
+51,32	//隐匿
+135,32	//伪装
+389,32	//暗影追踪
+35,32	//治疗术
+87,32	//冰刃之墙
+359,32	//狂怒之枪
+362,32	//神圣殿堂
+395,32	//落花伴着月光下的水车小屋
+357,32	//集中攻击
+264,32	//弓身弹影
+
+//Zone 2 - Jail
+421,64	//飞脚踢
+426,64	//跳高
+
+//Zone 3 - Izlude Battle Arena
+219,128 //胁持
+26,128	//瞬间移动
+
+//Zone 4 - WoE:SE
+426,256 //TK_HIGHJUMP
+
+//Zone 5 - Sealed Shrine
+12,512	//MG_SAFETYWALL
+26,512	//AL_TELEPORT
+219,512	//RG_INTIMIDATE
+361,512	//HP_ASSUMPTIO
+691,512	//CASH_ASSUMPTIO
+
+//Zone 6 -Endless Tower
+26,1024	//AL_TELEPORT
+87,1024	//WZ_ICEWALL
+219,1024	//RG_INTIMIDATE
+405,1024	//PF_SPIDERWEB
+674,1024	//NPC_EXPULSION

@@ -1,0 +1,17 @@
+// 道具延迟数据
+// Max number of entries is defined in itemdb.h as MAX_ITEMDELAYS
+// WARNING: Adding/removing/modifying entries here and then using @reloaditemdb will cause problems/inconsistencies!
+//
+// Structure:
+// 道具 ID,迟数时间豪秒为单位
+
+//12202,60000	//Str_Dish10_
+//12203,60000	//Agi_Dish10_
+//12204,60000	//Int_Dish10_
+//12205,60000	//Dex_Dish10_
+//12206,60000	//Luk_Dish10_
+//12207,60000	//Vit_Dish10_
+12208,60000	//经验值倍增书
+12210,60000	//掉宝率倍增糖
+14538,300000	//幻影的酒杯
+14586,180000	//跳跳糖
