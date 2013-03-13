@@ -1356,16 +1356,8 @@
 5460,115,100	// Adv_Dragon_Skull
 5461,115,100	// Adv_Whisper_Mask
 5464,123,100	// Zaha_Doll_Hat
-12333,123,100	// Ansila
-12725,91,100	// Runstone_Nosiege
-12726,91,100	// Runstone_Rhydo
-12727,91,100	// Runstone_Verkana
-12728,91,100	// Runstone_Isia
-12729,91,100	// Runstone_Asir
-12730,91,100	// Runstone_Urj
-12731,91,100	// Runstone_Turisus
-12732,91,100	// Runstone_Pertz
-12733,91,100	// Runstone_Hagalas
+
+
 5254,73,100	// Deviling_Hat
 14296,91,100	// Angel_Scroll
 14297,91,100	// Devil_Scroll
@@ -1454,10 +1446,7 @@
 //14361,91,100	// ???
 //14362,91,100	// ???
 //14363,91,100	// ???
-12323,115,100	// N_Fly_Wing
-12324,115,100	// N_Butterfly_Wing
-12325,115,100	// N_Magnifier
-2393,115,100	// N_Adventurer's_Suit
+
 //12400,83,100	// ???
 //2815,91,100	// ???
 5346,73,100	// Gf_Recruiter_Hat
@@ -1518,6 +1507,19 @@
 12348,91,100	// Manuk's_Faith
 12349,91,100	// Cornus'_Tears
 
+// New Novice Training Grounds
+1381,115,100	// N_Battle_Axe
+1545,115,100	// N_Mace
+1639,115,100	// N_Rod
+1742,115,100	// N_Composite_Bow
+
+2393,115,100	// N_Adventurer's_Suit
+12323,115,100	// N_Fly_Wing
+12324,115,100	// N_Butterfly_Wing
+12325,115,100	// N_Magnifier
+13040,115,100	// N_Cutter
+13041,115,100	// N_Main_Gauche
+13415,115,100	// N_Falchion
 // Epidode 13.3
 //1192,123,100	// P_Slayer1
 //1193,123,100	// P_Slayer2
@@ -1543,6 +1545,72 @@
 //16004,123,100	// P_Mace1
 //16005,123,100	// P_Mace2
 
+
+// Novice Training Grounds
+2819,123,100
+2820,123,100
+2821,123,100
+2822,123,100
+1703,123,100	// Bow__
+2794,123,100	// Magic_Stone_Ring
+2795,115,100	// Green_Apple_Ring
+2796,123,100	// Magical_Stone
+2797,123,100	// Magical_Stone_
+5746,91,100	// Rune_Circlet
+5747,91,100	// Mitra
+5748,91,100	// Sniper_Goggle
+5749,91,100	// Driver_Band
+5750,91,100	// Shadow_Handicraft
+5751,91,100	// Minstrel_Song_Hat
+5752,91,100	// Midas_Whisper
+5753,91,100	// Magic_Stone_Hat
+5754,91,100	// Blazing_Soul
+5755,91,100	// Silent_Executer
+5756,91,100	// Wind_Whisper
+5757,91,100	// Schmidt_Helm
+5758,91,100	// Dying_Swan
+5760,91,100	// Driver_Band_
+6151,115,100	// Peice_Of_Great_Bradium
+6152,115,100	// Glittering_Crystal
+6153,123,100	// Special_Exchange_Coupon
+6154,115,100	// Broken_Horn_Pipe
+6156,115,100	// Approval_Report
+6266,123,100	// Cheat_Key
+6267,123,100	// Virtual_Key
+6268,123,100	// Mirth_Key
+2823,123,100
+2824,123,100
+
+// 3rd jobs items
+6121,127,100	// Makeup_Brush
+6122,127,100	// Paint_Brush
+6269,123,100	// Master_Brush
+6270,115,100	// Mins_Picture
+6271,115,100	// Mins_Receipt
+6274,123,100	// Saint_Cloth_Piece
+6275,123,100	// King_Shield
+6276,123,100	// Clear_Reagent
+6277,123,100	// Red_Reagent
+6278,123,100	// Black_Reagent
+12384,115,100	// Rainbow_Ruby_Water
+12385,115,100	// Rainbow_Ruby_Fire
+12386,115,100	// Rainbow_Ruby_Wind
+12387,115,100	// Rainbow_Ruby_Earth
+12388,123,100	// Runstone_Crush
+12389,123,100	// Runstone_Storm
+12390,123,100	// Runstone_Millennium
+2798,115,100	// Will_Of_Exhausted_Angel
+12258,115,100	// Bombring_Box
+12333,123,100	// Ansila
+12725,91,100	// Runstone_Nosiege
+12726,91,100	// Runstone_Rhydo
+12727,91,100	// Runstone_Verkana
+12728,91,100	// Runstone_Isia
+12729,91,100	// Runstone_Asir
+12730,91,100	// Runstone_Urj
+12731,91,100	// Runstone_Turisus
+12732,91,100	// Runstone_Pertz
+12733,91,100	// Runstone_Hagalas
 // Novice Training Grounds
 2819,123,100
 2820,123,100
@@ -1550,20 +1618,6 @@
 2822,123,100
 2823,123,100
 2824,123,100
-
-// 3rd jobs items
-6121,127,100	// Makeup_Brush
-6122,127,100	// Paint_Brush
-12333,127,100	// Ancilla (need confirm this)
-12725,83,100	// Nauthiz Rune
-12726,83,100	// Raido Rune
-12727,83,100	// Berkana Rune
-12728,83,100	// Isa Rune
-12729,83,100	// Othila Rune
-12730,83,100	// Uruz Rune
-12731,83,100	// Thurisaz Rune
-12732,83,100	// Wyrd Rune
-12733,83,100	// Hagalaz Rune
 
 //OYY自定义物品
 29001,123,100	// OYY仙境普通会员卡

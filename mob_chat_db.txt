@@ -31,3 +31,8 @@
 27,0xFF0000,你到底要我怎样!
 28,0xFF0000,不! 这不是我干的! 这一切都是他的阴谋!
 29,0xFF0000,我只想要安宁..!  所以我才不断逃走!
+30,0xFF0000,Ahhhh!!! Now, I just have to kill you all!
+31,0xFF0000,Annoying flies!! Get off of me!
+32,0xFF0000,Suffer in Hell!
+33,0xFF0000,Mwahahaha! Taste the anger of the earth!!!
+34,0xFF0000,No... I won't accept this as defeat!

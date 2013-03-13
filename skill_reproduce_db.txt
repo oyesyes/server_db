@@ -147,6 +147,11 @@
 2213,1	// 破坏彗星
 2214,1	// 连锁闪电
 2216,1	// 大地扭曲
+2217,1	// Tetra Vortex
+2222,1	// Summon Fire Ball
+2223,1	// Summon Lightning Ball
+2224,1	// Summon Water Ball
+2229,1	// Summon Stone
 
 // 游侠
 2233,1	// 箭矢暴风
@@ -202,3 +207,4 @@
 2482,1	// 荆棘之壁
 2483,1	// 疯狂野草
 2490,1	// 地狱植物
+2493,1	// Sling Item
